@@ -234,22 +234,15 @@ public class CrosswordGenerator {
 	
 	// For test printing the grid.
 	public void printGrid() {
-		
 		placeFirstWord();
-		
 		for (char[] row : grid) {
-			
 			for (char col : row) {
-				
-				System.out.print(col);
-				
+				System.out.print(col);	
 			}
-			
-			System.out.println();
-			
+			System.out.println();	
 		}
-		
 	}
-	
+
+
 	
 }
