@@ -2,11 +2,11 @@ public String checkAnswer(String[][] inputCrossword) {
 	boolean check = true; 
 	int mistakeCounter = 0;
 	//2D array for answer key grid (check)
-	String key[][] = new key[5][5]; //unfinished 
+	String ansKey[][] = new String[5][5]; //unfinished 
 	
-	for (int row = 0; row < key.length; row++) { //replace size with row length of grid
-    	for (int col = 0; col < key[0].length; col++) {
-    		if (inputCrossword[row][col].equals(key[row][col])) {
+	for (int row = 0; row < ansKey.length; row++) { //replace size with row length of grid
+    	for (int col = 0; col < ansKey[0].length; col++) {
+    		if (inputCrossword[row][col].equals(ansKey[row][col])) {
     			check = true; 
     		}
     		
@@ -15,7 +15,7 @@ public String checkAnswer(String[][] inputCrossword) {
     			mistakeCounter++; 
     		}
     		}
-    	}}
+    	}
 
 	if (check = true) {
 		System.out.println("Congratulations! You correctly completed the crossword puzzle.");
