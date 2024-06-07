@@ -1,22 +1,36 @@
 
 public class WordBank {
 
+	private Words text;
 	private String word;
 	private String hint;
 	private int row;
 	private int col;
-	private boolean isHorizontal;
 	private boolean isVertical;
 	
-	public WordBank(String word, String hint) {
+	public WordBank(Words index) {
 		
-		this.word = word;
-		this.hint = hint;
+		this.text = index;
+		this.word = text.getWord();
+		this.hint = text.getHint();
 		row = 0;
 		col = 0;
-		isHorizontal = false;
 		isVertical = false;
 		
+		
+	}
+	
+	public Words getText() {
+		
+		return text;
+		
+	}
+	
+	public void setText(Words text) {
+		
+		this.text = text;
+		word = text.getWord();
+		hint = text.getHint();
 		
 	}
 	
@@ -57,18 +71,6 @@ public class WordBank {
 		
 	}
 	
-	public boolean isHorizontal() {
-		
-		return isHorizontal;
-		
-	}
-	
-	public void changeHorizontal() {
-		
-		if (isHorizontal == false) isHorizontal = true;
-		else isHorizontal = false;
-		
-	}
 	
 	public boolean isVertical() {
 		
@@ -77,10 +79,9 @@ public class WordBank {
 		
 	}
 	
-public void changeVertical() {
+	public void changeVertical(boolean value) {
 		
-		if (isVertical == false) isVertical = true;
-		else isVertical = false;
+		isVertical = value;
 		
 	}
 	
