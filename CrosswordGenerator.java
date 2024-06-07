@@ -4,15 +4,13 @@ import java.util.Random;
 
 public class CrosswordGenerator {
 
-	private ArrayList<WordBank> words;
-	private int maxWords;
 	private char[][] grid;
+	private final char emptyCell = 'x';
+	private int gridSize;
 	
-	public CrosswordGenerator(ArrayList<WordBank> words, int maxWords) {
+	public CrosswordGenerator() {
 		
-		this.words = words;
-		this.maxWords = maxWords;
-		int gridSize = maxWords * 10;
+		gridSize = 30;
 		this.grid = new char[gridSize][gridSize];
 		
 		//Fills every grid space with a space.
@@ -20,7 +18,7 @@ public class CrosswordGenerator {
 			
 			for (int j = 0; j < grid[0].length; j++) {
 				
-				grid[i][j] = 'x';
+				grid[i][j] = emptyCell;
 				
 			}
 			
@@ -28,48 +26,76 @@ public class CrosswordGenerator {
 		
 	}
 	
-	// Shuffles word bank given.
-	public void shuffle() {
+	public int getGridSize() {
 		
-		Random r = new Random();
-		for (int i = words.size() - 1; i > 0; i--) {
+		return gridSize;
+		
+	}
+	
+	//Checks if the word was added.
+	public boolean update(WordBank word) {
+		
+		boolean updated = false;
+		if (canBePlaced(word)) {
 			
-			int j = r.nextInt(i);
-			WordBank temp = words.get(i);
-			words.set(i, words.get(j));
-			words.set(j, temp);
+			placeWord(word);
+			updated = true;
+			
+		}
+		
+		return updated;
+		
+	}
+	
+	// Adds a word to the grid.
+	public void placeWord(WordBank word) {
+		
+		for (int i = 0; i < word.getWord().length(); i++) {
+			
+			int row = word.getRow();
+			int col = word.getCol();
+			
+			if (word.isVertical()) row += i;
+			else col += i;
+			
+			grid[row][col] = word.getWord().charAt(i);
 			
 		}
 		
 	}
 	
-	// Places the first word on the grid.
-	public void placeFirstWord() {
+	public int getIntersections() {
 		
-		shuffle();
+		int intersections = 0;
+		for (int row = 1; row < grid.length; row++) {
+			
+			for (int col = 1; col < grid[0].length; col++) {
+				
+				if (isLetter(row, col)) {
+					
+					if(isValidPosition(row - 1, col) && isValidPosition(row + 1, col) &&
+							isValidPosition(row, col - 1) && isValidPosition(row, col + 1) &&
+							isLetter(row - 1, col) && isLetter(row + 1, col) &&
+							isLetter(row, col - 1) && isLetter(row, col + 1)) {
+						
+						intersections++;
+						
+					}
+					
+				}
+				
+			}
+			
+		}
 		
-		int middle = grid.length / 2;
-		String first = words.get(0).getWord();
-		words.get(0).changeHorizontal();
-
-		for (int i = 0; i < first.length(); i++) {
-			
-			grid[middle][middle - first.length()/2 + i] = first.charAt(i);
-			
-		}		
+		return intersections;
 		
 	}
-	
-	//Checks if the word was added.
-	//public boolean update() {}
-	
-	//Checks if a word can be placed.
-	public void canBePlaced() {}
 	
 	//Checks if the cell has a letter.
 	public boolean isLetter(int row, int col) {
 		
-		return grid[row][col] != 'x';
+		return grid[row][col] != emptyCell;
 		
 	}
 	
@@ -95,14 +121,14 @@ public class CrosswordGenerator {
 		
 	}
 	
-	// Checks if 
+	// Checks if the bounds are within the grid.
 	public boolean isValidPosition(int row, int col) {
 		
 		return (row >= 0 && row < grid.length) && (col >= 0 && col < grid.length);
 		
 	}
 	
-	pubilc boolean placementLegal(WordBank word, int row, int col) {
+	public boolean placementLegal(WordBank word, int row, int col) {
 		
 		boolean illegal = false;
 		if (word.isVertical()) {
@@ -125,6 +151,7 @@ public class CrosswordGenerator {
 		
 	}
 	
+	//Checks if the word can be added to the grid without complications.
 	public boolean canBePlaced(WordBank word) {
 		
 		boolean canBePlaced = true;
@@ -166,7 +193,8 @@ public class CrosswordGenerator {
 		
 	}
 	
-	pubilc boolean overlapping(WordBank word, int row, int col) {
+	// Checks if the word will be directly next to another word on the grid.
+	public boolean overlapping(WordBank word, int row, int col) {
 		
 		boolean overlap = false;
 		boolean empty = isEmpty(row, col);
@@ -193,19 +221,32 @@ public class CrosswordGenerator {
 		
 	}
 	
-	public int endOfWord(WordBank word, int row, int col) {
+	public boolean isInterference(int row, int col) {
 		
-		if (word.isVertical()) return word.getRow() + word.getWord().length() - 1;
-		else return word.getCol() + word.getWord().length() - 1;
+		int nextRow = row + 1;
+		int nextCol = col + 1;
+		
+		return isValidPosition(row, col) && isLetter(row, col) &&
+				isValidPosition(nextRow, nextCol) && isLetter(nextRow, nextCol);
 		
 	}
 	
+	// Checks if the character chosen is the end of the word.
+	public boolean endOfWord(WordBank word, int row, int col) {
+		
+		if (word.isVertical()) return word.getRow() + word.getWord().length() - 1 == row;
+		else return word.getCol() + word.getWord().length() - 1 == col;
+		
+	}
+	
+	// Checks if there's a character at a certain position on the grid.
 	public boolean doesCharacterExist(int row, int col) {
 		
 		return isValidPosition(row, col) && isLetter(row, col);
 		
 	}
 	
+	// *** Checks if the word is replacing another, both horizontal and vertical. *** //
 	public boolean overwritingHorizontalWord(int row, int col) {
 		
 		int leftCol = col - 1;
@@ -222,27 +263,24 @@ public class CrosswordGenerator {
 		
 	}
 	
-	public boolean isInterference(int row, int col) {
-		
-		int nextRow = row + 1;
-		int nextCol = col + 1;
-		
-		return isValidPosition(row, col) && isLetter(row, col) &&
-				isValidPosition(nextRow, nextCol) && isLetter(nextRow, nextCol);
-		
-	}
 	
 	// For test printing the grid.
 	public void printGrid() {
-		placeFirstWord();
+		
+		
 		for (char[] row : grid) {
+			
 			for (char col : row) {
-				System.out.print(col);	
+				
+				System.out.print(col);
+				
 			}
-			System.out.println();	
+			
+			System.out.println();
+			
 		}
+		
 	}
-
-
+	
 	
 }
