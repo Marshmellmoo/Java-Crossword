@@ -1,0 +1,200 @@
+ABSTRACTCLASS, defines a class that cannot be instantiated
+ACCESSMODIFIER, determines the visibility of a variable - method - or class
+ANNOTATION, provides metadata for Java code
+ANONYMOUSCLASS, a class without a name
+ARRAYLIST, a resizable array implementation
+AUTOCLOSEABLE, an interface for classes that can be closed
+BOOLEAN, represents true or false values
+BREAK, exits a loop or switch statement
+BYTE, an 8-bit integer data type
+CASE, a label in a switch statement
+CATCH, handles exceptions
+CHAR, a single 16-bit Unicode character
+CLASS, defines a blueprint for objects
+CLASSLOADER, loads Java classes at runtime
+CLONEABLE, indicates that a class allows cloning
+COLLECTION, a group of objects
+COMPARATOR, defines a custom order for objects
+CONCURRENCY, simultaneous execution of threads
+CONCURRENTHASHMAP, a thread-safe map implementation
+CONSTRUCTOR, initializes a new object
+CONTINUE, skips the current iteration of a loop
+CUSTOMEXCEPTION, a user-defined exception
+DAEMONTHREAD, a background service thread
+DEBUGGER, a tool to test and debug code
+DEPRECATED, indicates outdated code
+DOUBLE, a double-precision floating-point number
+ENUM, a special class representing a group of constants
+EXCEPTION, handles runtime errors
+EXTENDS, indicates inheritance
+FINAL, prevents modification
+FINALLY, executes after a try-catch block
+FLOAT, a single-precision floating-point number
+FOR, a loop with a specified number of iterations
+GARBAGECOLLECTOR, reclaims unused memory
+GENERICS, enables types to be parameters
+GETTER, retrieves the value of a variable
+HASHMAP, a collection of key-value pairs
+HEAP, a memory area for dynamic allocation
+IMPLEMENTS, indicates interface implementation
+IMPORT, includes other classes or packages
+INSTANCE, an object of a class
+INSTANCEOF, tests object type
+INTERFACE, defines a contract for classes
+INT, a 32-bit integer data type
+ITERATOR, traverses elements of a collection
+JAVA, a high-level programming language
+JAVADOC, generates documentation from comments
+JAVAVIRTUALMACHINE, runs Java bytecode
+JDK, Java Development Kit
+JRE, Java Runtime Environment
+LAMBDA, a concise way to express anonymous functions
+LINKEDLIST, a list with elements linked by pointers
+LOCALCLASS, a class defined within a method
+LONG, a 64-bit integer data type
+MAIN, the entry point of a Java application
+MAP, a collection of key-value pairs
+METHOD, a function defined within a class
+MULTITHREADING, concurrent execution of threads
+MUTEX, mutual exclusion for thread safety
+NAMESPACE, a context for identifiers
+NATIVE, indicates a method is implemented in native code
+NULL, a literal representing no value
+OBJECT, an instance of a class
+OVERLOADING, defining multiple methods with the same name
+OVERRIDING, redefining a method in a subclass
+PACKAGE, groups related classes and interfaces
+POLYMORPHISM, different implementations of the same interface
+PRIMITIVE, basic data types like int - char - etc.
+PRIVATE, access level within the same class
+PROTECTED, access level within the same package and subclasses
+PUBLIC, access level for all classes
+QUEUE, a collection for holding elements prior to processing
+RANDOMACCESS, indicates random access capability
+RECURSION, a method calling itself
+REFLECTION, inspection of classes at runtime
+RETURN, exits a method and optionally returns a value
+RUNTIME, the period during which a program is running
+SCANNER, reads input from various sources
+SERIALIZATION, converting an object into a byte stream
+SET, a collection that contains no duplicate elements
+SHORT, a 16-bit integer data type
+SINGLETON, a class with only one instance
+STACK, a last-in -> first-out collection
+STATIC, belongs to the class -- not instances
+STRING, a sequence of characters
+STRINGBUFFER, a mutable sequence of characters
+STRINGBUILDER, a faster mutable sequence of characters
+SUPER, refers to the superclass
+SWITCH, a control statement for multiple paths
+SYNCHRONIZED, restricts access to one thread at a time
+THROW, signals an exception
+THROWS, declares exceptions thrown by a method
+TRANSIENT, prevents serialization of a field
+TRY, starts a block of code to handle exceptions
+TYPECASTING, converting one type to another
+VARIABLE, a storage location with a name
+VOLATILE, ensures visibility of changes across threads
+VOID, indicates no return value
+WHILE, a loop with a condition at the beginning
+WRAPPERCLASS, a class that encapsulates a primitive type
+XOR, bitwise exclusive OR operator
+YIELD, pauses the current thread
+ZERODIVISION, an exception for division by zero
+ASYNCHRONOUS, not occurring at the same time
+BINARYSEARCH, searching algorithm in sorted arrays
+BLOCK, a group of statements
+BOOLEANLOGIC, true/false logic operations
+BUFFER, temporary data storage
+CALLBACK, method passed as an argument
+CHARACTERCODE, numeric representation of a character
+CLASSPATH, the path for finding classes
+CLIENTSERVER, architecture with clients and servers
+COMPILER, converts source code to bytecode
+COMPOSITION, building complex objects from simpler ones
+CONSTANT, a variable whose value cannot change
+CONVERSION, changing from one type to another
+COUNTER, a variable used to count occurrences
+CURRENCY, formatting and using currency values
+DATATYPE, type of data stored in a variable
+DEBUG, finding and fixing bugs
+DEQUEUE, removing an element from a queue
+DICTIONARY, a collection of key-value pairs
+DISPATCH, sending a message to an object
+DOCUMENTATION, descriptive text about code
+DOUBLEBUFFERING, technique to minimize flickering
+DRIVER, interface for connecting to databases
+DYNAMICBINDING, linking a procedure call at runtime
+EQUALITY, checking if two values are the same
+EVENT, an action recognized by software
+EXCLUSIVEOR, bitwise operator for XOR
+FACTORYMETHOD, a method for creating objects
+FILEINPUTSTREAM, reading data from a file
+FILEOUTPUTSTREAM, writing data to a file
+FINALIZER, method called before an object is destroyed
+FIRSTCLASS, a class with all primary features
+FUNCTIONALINTERFACE, an interface with one abstract method
+GENERICMETHOD, a method with a type parameter
+GRAPHICS, drawing and rendering shapes
+HASHCODE, returns a hash code value
+IDENTIFIER, name for variables - methods - classes
+IMMUTABLE, an object whose state cannot change
+IMPORTSTATEMENT, includes classes or packages
+INDEXOUTOFBOUNDS, exception for invalid index access
+INLINE, placing code directly in the method
+INPUTSTREAM, reads bytes from a source
+INSTANCEVARIABLE, a variable belonging to an instance
+INTELLIJIDEA, a popular Java IDE
+INTERNET, a global network of computers
+IOEXCEPTION, exception for I/O errors
+JAVAARCHIVE, packaging format for Java classes
+JAVAEE, Java Enterprise Edition
+JAVAFX, a platform for creating rich internet applications
+JAVASE, Java Standard Edition
+JAVASERVERFACES, framework for building web applications
+JAVASERVLET, a Java class for web servers
+JOIN, combining threads or strings
+JSON, a lightweight data interchange format
+JVMARGUMENTS, parameters for the JVM
+KEYBOARD, input device for text
+LABEL, an identifier for a statement
+LEAPYEAR, a year with an extra day
+LIBRARY, a collection of pre-written code
+LOADING, process of loading classes into memory
+LOGGING, recording information about program execution
+MAPPING, associating keys with values
+MAXVALUE, the largest value a type can hold
+MINVALUE, the smallest value a type can hold
+MODULUS, remainder operation
+MULTICAST, sending data to multiple recipients
+NESTEDCLASS, a class defined within another class
+NETWORK, a group of connected computers
+OBJECTORIENTED, programming paradigm based on objects
+OVERFLOW, exceeding the storage capacity
+PACKAGEPRIVATE, access level within the same package
+PARSE, analyzing a string for structure
+PASSWORD, a secret word for authentication
+PATH, the location of a file or directory
+PIPE, a connection between two programs
+PLATFORM, the environment where programs run
+POINTER, a reference to a memory location
+POOL, a collection of reusable objects
+PRIORITY, importance level of a thread
+PROXY, an intermediary for requests
+QUEUE, a collection of elements with FIFO order
+RANDOM, generating unpredictable values
+REFERENCE, an address to a memory location
+REGEX, pattern matching for strings
+RELATIONAL, operations involving relationships between values
+REMOTE, accessing objects on a different machine
+RENDER, drawing graphics
+RESOURCE, an asset used by a program
+REVERSE, reversing a sequence
+SCOPE, the visibility of variables
+SECURITY, protection against unauthorized access
+SESSION, a period of interaction with a system
+SINGLETHREADED, execution of a single thread
+SOURCECODE, human-readable code
+SUBCLASS, a class derived from another class
+SUPERCLASS, a class from which others are derived
+SYNTAX, rules defining structure in programming
