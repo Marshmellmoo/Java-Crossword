@@ -3,8 +3,8 @@ import java.util.ArrayList;
 
 public class GameGenerator {
 	
-	private final int attemptsMax = 1000;
-	private final int trialGridMax = 10;
+	private final int attemptsMax = 5000;
+	private final int trialGridMax = 25;
 	private ArrayList<Words> words;
 	private ArrayList<Words> wordsCopy;
 	private ArrayList<Words> usedWords;
@@ -16,8 +16,7 @@ public class GameGenerator {
 		this.words = words;
 		
 		//Initialized wordsCopy so that words isn't referenced.
-		ArrayList<Words> arrayList = (ArrayList<Words>)(words.clone());
-		wordsCopy = arrayList;
+		wordsCopy = new ArrayList<Words>(words);
 		
 		usedWords = new ArrayList<Words>();
 		trialGrids = new ArrayList<CrosswordGenerator>();
@@ -29,12 +28,11 @@ public class GameGenerator {
 	// Resets the temporary ArrayList.
 	public void resetWordsCopy() {
 		
-		ArrayList<Words> arrayList = (ArrayList<Words>)(words.clone());
-		wordsCopy = arrayList;
+		wordsCopy = new ArrayList<Words>(words);
 		
 	}
 	
-	//
+	// Gets random word from ArrayList "wordsCopy".
 	public Words tryWord() {
 		
 		Words word = getRandomWord();
@@ -51,7 +49,9 @@ public class GameGenerator {
 		
 	}
 	
-	public boolean placeWord(CrosswordGenerator grid, WordBank word) {
+	// Attempts to place word on CrosswordGenerator grid, word has 50% chance to be horizontal
+	// or vertical, and is attempted to be placed on every single index on the grid.
+	public boolean attemptPlaceWord(CrosswordGenerator grid, WordBank word) {
 	
 		Words text = getRandomWord();
 		for (int row = 0; row < grid.getGridSize(); row++) {
@@ -68,6 +68,7 @@ public class GameGenerator {
 					if (grid.update(word)) {
 						
 						updateUsedWordsList(word.getText());
+						grid.updateWordBankList(word);
 						return true;
 						
 					}
@@ -82,6 +83,8 @@ public class GameGenerator {
 		
 	}
 	
+	// Generates a certain amount of test grids, based on the variable trialGridMax, and will attempt to update the grid
+	// multiple times based on the variable attemptsMax.
 	public void generateTrialGrids() {
 		
 		for (int i = 0; i < trialGridMax; i++) {
@@ -90,13 +93,14 @@ public class GameGenerator {
 			WordBank word = new WordBank(getSpecificSize(7));
 			
 			grid.update(word);
+			grid.updateWordBankList(word);
 			updateUsedWordsList(word.getText());
 			
 			int fails = 0;
 			
 			for (int attempts = 0; attempts < attemptsMax; attempts++) {
 				
-				boolean placed = placeWord(grid, word);
+				boolean placed = attemptPlaceWord(grid, word);
 				
 				if (placed) {
 					
@@ -121,11 +125,13 @@ public class GameGenerator {
 			resetWordsCopy();
 			usedWords.clear();
 			
-			
 		}
 		
 	}
 	
+	
+	// Finds the best grid out of all the grids generated, and determines which one is the best from
+	// the amount of intersections it may have.
 	public CrosswordGenerator getBestGrid() {
 		
 		generateTrialGrids();
@@ -148,7 +154,8 @@ public class GameGenerator {
 	public boolean isGoodWord(Words word) {
 		
 		boolean goodWord = false;
-				
+		
+		// Takes possible starting characters list and looks to see if the word entered has the same character at the beginning.
 		for (Character c : startCharacters) {
 					
 			if (c == word.getWord().charAt(0)) {
@@ -245,9 +252,9 @@ public class GameGenerator {
 		
 	}
 	
-	public void displayGrid() {
-		
-		getBestGrid().printGrid();
+	public CrosswordGenerator createGrid() {
+
+		return getBestGrid();
 		
 	}
 	

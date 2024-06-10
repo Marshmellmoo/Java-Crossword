@@ -1,19 +1,19 @@
-
 import java.util.ArrayList;
-import java.util.Random;
 
 public class CrosswordGenerator {
 
-	private char[][] grid;
-	private final char emptyCell = 'x';
 	private int gridSize;
+	private char[][] grid;
+	private final char emptyCell = ' ';
+	private ArrayList<WordBank> wordBankList;
 	
 	public CrosswordGenerator() {
 		
 		gridSize = 30;
 		this.grid = new char[gridSize][gridSize];
+		this.wordBankList = new ArrayList<WordBank>();
 		
-		//Fills every grid space with a space.
+		//Fills every grid space with the emptyCell variable.
 		for (int i = 0; i < grid.length; i++) {
 			
 			for (int j = 0; j < grid[0].length; j++) {
@@ -26,10 +26,30 @@ public class CrosswordGenerator {
 		
 	}
 	
+	// Getters
 	public int getGridSize() {
 		
 		return gridSize;
 		
+	}
+	
+	public char[][] getGrid() {
+		
+		return grid;
+		
+	}
+	
+	public ArrayList<WordBank> getWordBankList() {
+		
+		return wordBankList;
+		
+	}
+
+	// Updates the word bank of the crossword grid.
+	public void updateWordBankList(WordBank word) {
+
+		wordBankList.add(word);
+
 	}
 	
 	//Checks if the word was added.
@@ -64,6 +84,7 @@ public class CrosswordGenerator {
 		
 	}
 	
+	// Counts the amount of intersections on the grid.
 	public int getIntersections() {
 		
 		int intersections = 0;
@@ -128,6 +149,7 @@ public class CrosswordGenerator {
 		
 	}
 	
+	// Checks if placing a word at a certain point will interfere with anything else.
 	public boolean placementLegal(WordBank word, int row, int col) {
 		
 		boolean illegal = false;
@@ -168,7 +190,7 @@ public class CrosswordGenerator {
 				if (!word.isVertical()) currentColumn = word.getCol() + index;
 				else currentColumn = word.getCol();
 				
-				if ((word.getWord().charAt(index) == grid[currentRow][currentColumn] || ('x' == grid[currentRow][currentColumn])) && placementLegal(word, currentRow, currentColumn)) {
+				if ((word.getWord().charAt(index) == grid[currentRow][currentColumn] || (emptyCell == grid[currentRow][currentColumn])) && placementLegal(word, currentRow, currentColumn)) {
 					
 					//Nothing happens.
 					
@@ -262,7 +284,6 @@ public class CrosswordGenerator {
 				isLetter(rowUp, col));
 		
 	}
-	
 	
 	// For test printing the grid.
 	public void printGrid() {
