@@ -2,8 +2,6 @@
 public class WordBank {
 
 	private Words text;
-	private String word;
-	private String hint;
 	private int row;
 	private int col;
 	private boolean isVertical;
@@ -11,8 +9,6 @@ public class WordBank {
 	public WordBank(Words index) {
 		
 		this.text = index;
-		this.word = text.getWord();
-		this.hint = text.getHint();
 		row = 0;
 		col = 0;
 		isVertical = false;
@@ -29,20 +25,18 @@ public class WordBank {
 	public void setText(Words text) {
 		
 		this.text = text;
-		word = text.getWord();
-		hint = text.getHint();
 		
 	}
 	
 	public String getWord() {
 		
-		return word;
+		return text.getWord();
 		
 	}
 	
 	public String getHint() {
 		
-		return hint;
+		return text.getHint();
 		
 	}
 	
@@ -70,7 +64,6 @@ public class WordBank {
 		
 		
 	}
-	
 	
 	public boolean isVertical() {
 		
