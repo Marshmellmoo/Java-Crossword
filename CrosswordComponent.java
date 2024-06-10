@@ -85,12 +85,12 @@ public class CrosswordComponent extends JComponent {
 
 				if (crossword.isEmpty(row, col)) {
 
-					g2.setColor(Color.RED);
+					g2.setColor(black);
 					g2.fillRect(x, y, boxSize, boxSize);
 
 				} else {
 
-					g2.setColor(Color.RED);
+					g2.setColor(black);
 					g2.drawRect(x, y, boxSize, boxSize);
 					g2.drawString(Character.toString(grid[row][col]), x + 10, y + boxSize - 10);
 
@@ -109,6 +109,7 @@ public class CrosswordComponent extends JComponent {
 		x = 0;
 		y = 0;
 
+		/*
 		int z = 20;
 		int number = 1;
 
@@ -125,15 +126,6 @@ public class CrosswordComponent extends JComponent {
 
 			for (int col = 0; col < grid[0].length - 1; col++) {
 
-				if ((crossword.isLetter(row + 1, col) && crossword.isLetter(row, col + 1)) && crossword.isLetter(row, col)) {
-
-					g2.setColor(black);
-					g2.drawString(Integer.toString(number), x, y + 10);
-					number++;
-					
-
-				} 
-
 				x += boxSize;
 
 			}
@@ -141,7 +133,7 @@ public class CrosswordComponent extends JComponent {
 			x = 0;
 			y += boxSize;
 
-		}
+		}*/
 
 		
 	}
