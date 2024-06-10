@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class CrosswordComponent extends JComponent {
 	
 	private CrosswordGenerator crossword;
-	private ArrayList<Words> wordBankList;
+	private ArrayList<WordBank> wordBankList;
 	
 	public CrosswordComponent() {
 		
@@ -70,7 +70,7 @@ public class CrosswordComponent extends JComponent {
 		int boxSize = (int)(1000 / crossword.getGridSize());
 
 		crossword.printGrid();
-		for (Words index : wordBankList) {
+		for (WordBank index : wordBankList) {
 
 			System.out.println (index.getWord() + "  " + index.getHint());
 
