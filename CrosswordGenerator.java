@@ -18,12 +18,9 @@ public class CrosswordGenerator {
 			
 			for (int j = 0; j < grid[0].length; j++) {
 				
-				grid[i][j] = emptyCell;
-				
-			}
-			
-		}
-		
+				grid[i][j] = emptyCell;	
+			}	
+		}	
 	}
 	
 	// Getters
