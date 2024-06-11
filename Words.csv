@@ -1,223 +1,251 @@
-APPLE, A round fruit that can be red or green.
-BALL, You can throw or kick this round object.
-CAT, A small furry pet that purrs.
-DOG, A loyal pet that barks.
-EGG, Chickens lay these.
-FISH, Lives in water and has fins.
-GOAT, This animal has horns and likes to climb.
-HAT, You wear this on your head.
-ICE, Frozen water.
-JUG, A container for holding liquids.
-KITE, Flies high in the sky on a string.
-LEAF, Grows on trees and is green.
-MOON, Shines in the night sky.
-NUT, Squirrels love to eat these.
-OWL, A bird that hoots at night.
-PEN, You use this to write.
-QUILT, A warm bed covering made of fabric pieces.
-RAT, A small rodent with a long tail.
-SUN, Shines brightly in the sky.
-TREE, A tall plant with branches and leaves.
-UMBRELLA, You use this when it rains.
-VAN, A large vehicle for carrying people or things.
-WHALE, A giant animal that lives in the ocean.
-XYLOPHONE, A musical instrument with wooden bars.
-YARN, Used for knitting and comes in balls.
-ZEBRA, A striped animal found in Africa.
-ANT, A tiny insect that lives in colonies.
-BOAT, Floats on water.
-CAR, A vehicle with four wheels.
-DUCK, A bird that quacks and swims.
-EAR, You use this to hear.
-FROG, A green animal that jumps and lives in water.
-GATE, A door in a fence or wall.
-HORSE, An animal you can ride.
-INK, Used in pens for writing.
-JAR, A container made of glass or plastic.
-KING, A male ruler of a country.
-LION, The king of the jungle.
-MILK, A white liquid cows produce.
-NEST, A bird's home.
-OCTOPUS, A sea animal with eight arms.
-PIG, A farm animal that oinks.
-QUEEN, A female ruler of a country.
-ROSE, A type of fragrant flower.
-SHIP, A large boat.
-TRAIN, A long vehicle that runs on tracks.
-VINE, A climbing plant.
-WOLF, A wild animal that howls.
-AXE, A tool used for chopping wood.
-BELL, A metal object that rings.
-CORN, A yellow vegetable that grows on a cob.
-DRUM, A musical instrument you hit.
-ELEPHANT, A large animal with a trunk.
-FAN, A device that blows air.
-GRAPES, Small round fruits that grow in clusters.
-HILL, A small raised area of land.
-ICE CREAM, A sweet frozen treat.
-KITE, Flies high in the sky on a string.
-LAMP, A device that gives light.
-MOUSE, A small rodent with a long tail.
-NEST, A structure built by birds.
-OWL, A nocturnal bird.
-PEN, A writing instrument.
-QUEEN, A female monarch.
-RABBIT, A small animal with long ears.
-SNAKE, A legless reptile.
-TENT, A portable shelter.
-VINE, A climbing plant.
-WAGON, A vehicle for carrying goods.
-YARN, Used for knitting.
-ZEBRA, A striped animal.
-ANGEL, A heavenly being.
-BEE, An insect that makes honey.
-CAKE, A sweet baked dessert.
-DOLL, A toy that looks like a human.
-EGG, Laid by birds.
-FLAG, A piece of cloth with a symbol.
-GOAT, An animal with horns.
-HAT, A head covering.
-ICE, Frozen water.
-JAM, A sweet spread made from fruit.
-KEY, Used to open locks.
-LEAF, Part of a plant.
-MOON, Earth's natural satellite.
-NUT, A hard-shelled seed.
-OWL, A nocturnal bird.
-PIG, A farm animal.
-QUILT, A bed covering.
-RAT, A small rodent.
-SUN, A star in our solar system.
-TREE, A tall plant.
-UMBRELLA, For rain protection.
-VAN, A vehicle.
-WHALE, A large sea animal.
-XYLOPHONE, A musical instrument.
-YARN, For knitting.
-ZEBRA, A striped animal.
-ANT, A small insect.
-BOAT, Floats on water.
-CAR, A four-wheeled vehicle.
-DUCK, A bird that swims.
-EAR, For hearing.
-FROG, A green jumping animal.
-GATE, A fence door.
-HORSE, An animal to ride.
-INK, Pen liquid.
-JAR, A container.
-KING, A male ruler.
-LION, A big cat.
-MILK, A white drink.
-NEST, A bird's home.
-OCTOPUS, Sea animal with arms.
-PIG, A farm animal.
-QUEEN, A female ruler.
-ROSE, A fragrant flower.
-SHIP, A large boat.
-TRAIN, Runs on tracks.
-VINE, A climbing plant.
-WOLF, A wild animal.
-AXE, A chopping tool.
-BELL, A ringing object.
-CORN, A yellow vegetable.
-DRUM, A musical instrument.
-BIRD, Flies in the sky.
-CAKE, A sweet baked dessert.
-DEER, A wild animal with antlers.
-FIRE, Hot and bright.
-GOOSE, A bird that honks.
-HORSE, An animal you can ride.
-IGLOO, A house made of ice.
-JUMP, To leap into the air.
-KANGAROO, An animal that jumps and has a pouch.
-LAMB, A baby sheep.
-MONKEY, A playful animal that swings in trees.
-NEEDLE, Used for sewing.
-ORANGE, A citrus fruit and color.
-PANDA, A black and white bear.
-QUACK, The sound a duck makes.
-RING, A piece of jewelry for your finger.
-SNAIL, A slow-moving creature with a shell.
-TIGER, A big striped cat.
-UNICORN, A mythical horse with a horn.
-VIOLIN, A musical instrument with strings.
-WITCH, A magical person with a broom.
-X-RAY, A picture of your bones.
-YOGURT, A creamy dairy snack.
-ZOO, A place where animals are kept.
-ACORN, The nut of an oak tree.
-BROOM, Used for sweeping.
-CANDY, A sweet treat.
-DESK, A place to sit and write.
-EAGLE, A large bird of prey.
-FLOWER, A colorful plant.
-GLUE, Sticky stuff for crafting.
-HOUSE, A place where people live.
-ICEBERG, A large piece of ice in the sea.
-JACKET, A piece of clothing for warmth.
-KETTLE, Used to boil water.
-LADDER, Used to climb up and down.
-MAP, Shows you where to go.
-NOSE, Used for smelling.
-ORBIT, The path of a planet.
-PENCIL, A tool for writing or drawing.
-QUIET, Very little noise.
-RIVER, A large flowing body of water.
-STARS, Bright objects in the night sky.
-TEAPOT, Used to brew tea.
-UNICYCLE, A bike with one wheel.
-VIOLET, A purple flower.
-WIND, Moving air.
-XYLOPHONE, A musical instrument.
-YAWN, What you do when you're tired.
-ZEBRA, A striped animal.
-ALLIGATOR, A large reptile.
-BANANA, A yellow fruit.
-CAMEL, An animal with humps.
-DOLPHIN, A smart sea animal.
-EARTH, The planet we live on.
-FORK, Used to eat food.
-GIRAFFE, A tall animal with a long neck.
-HAMMER, Used to hit nails.
-INSECT, A small bug.
-JUICE, A drink made from fruit.
-KEYBOARD, Used to type on a computer.
-LADYBUG, A small red beetle.
-MELON, A large juicy fruit.
-NEIGHBOR, Someone who lives nearby.
-OSTRICH, A large bird that can't fly.
-PARROT, A colorful talking bird.
-QUEEN, A female ruler.
-ROCKET, Flies into space.
-SAND, Found on beaches.
-TELESCOPE, Used to look at stars.
-UMBRELLA, For rain protection.
-VOLCANO, A mountain that erupts.
-WALRUS, An arctic animal with tusks.
-XYLOPHONE, A musical instrument.
-YO-YO, A toy on a string.
-ZIPPER, Used to close clothes.
-ANIMAL, A living creature.
-BEACH, A sandy shore.
-CLOUD, Found in the sky.
-DRAGON, A mythical creature.
-EGGPLANT, A purple vegetable.
-FOREST, A large area with trees.
-GHOST, A spooky spirit.
-HONEY, Made by bees.
-ISLAND, A piece of land surrounded by water.
-JUNGLE, A dense forest.
-KITTEN, A baby cat.
-LION, The king of the jungle.
-MOUNTAIN, A tall landform.
-NECKLACE, Jewelry for the neck.
-OCEAN, A large body of salt water.
-PEAR, A sweet green fruit.
-QUEEN, A royal lady.
-RAIN, Water that falls from the sky.
-SHELL, Found on the beach.
-TURTLE, A slow-moving reptile.
-UNIFORM, Special clothes for a job or school.
-VOLLEYBALL, A sport played with a ball and net.
-XYLOPHONE, A musical instrument.
-YOGURT, A creamy dairy snack.
+word, hint
+ACADEMIC, related to education or scholarly activities
+ACQUIRE, to obtain or get something
+ANALYZE, to examine in detail
+APPROACH, a way of dealing with something
+ARGUMENT, a reason or set of reasons given to persuade
+ASSESS, to evaluate or estimate the nature of something
+ASSUME, to suppose to be the case without proof
+BENEFIT, an advantage or profit gained from something
+CATEGORY, a class or division of things regarded as having particular shared characteristics
+CHALLENGE, a task or situation that tests someone's abilities
+CHARACTERISTIC, a feature or quality belonging typically to a person - place - or thing
+CHRONOLOGICAL, arranged in the order of time
+CIRCUMSTANCE, a fact or condition connected with an event or action
+COHERENT, logical and consistent
+COMPREHEND, to understand or grasp
+CONCEPT, an abstract idea or general notion
+CONCLUDE, to bring something to an end
+CONSEQUENCE, a result or effect of an action or condition
+CONSTRUCT, to build or form by putting together parts
+CONTEXT, the circumstances that form the setting for an event - statement - or idea
+CONTRAST, to compare in such a way as to emphasize differences
+CRITIQUE, a detailed analysis and assessment
+DEBATE, a formal discussion on a particular topic
+DEFINITE, clearly stated or decided
+DEMONSTRATE, to clearly show the existence or truth of something
+DERIVE, to obtain something from a specified source
+DESCRIBE, to give a detailed account in words
+DEVELOP, to grow or cause to grow
+DIFFERENTIATE, to recognize or ascertain what makes someone or something different
+DIMENSION, a measurable extent of a particular kind
+DISCIPLINE, a branch of knowledge - typically one studied in higher education
+DISTINGUISH, to recognize or treat as different
+DOMINATE, to have a commanding influence on
+ELEMENT, a part or aspect of something abstract
+EMPHASIZE, to give special importance or prominence to something
+ENHANCE, to intensify - increase - or further improve the quality of something
+EQUIVALENT, equal in value - amount - function - or meaning
+ESTABLISH, to set up on a firm or permanent basis
+EVALUATE, to judge or determine the significance - worth - or quality of something
+EVIDENCE, the available body of facts or information indicating whether a belief or proposition is true or valid
+EXAGGERATE, to represent something as being larger - better - or worse than it really is
+EXPLICIT, stated clearly and in detail
+FACTOR, a circumstance - fact - or influence that contributes to a result
+FORMULATE, to create or devise methodically
+FOUNDATION, the basis or groundwork of anything
+FUNCTION, an activity or purpose natural to or intended for a person or thing
+FUNDAMENTAL, forming a necessary base or core
+GENERATE, to produce or create
+HYPOTHESIS, a supposition or proposed explanation made on the basis of limited evidence
+IDENTIFY, to establish or indicate who or what someone or something is
+ILLUSTRATE, to explain or make something clear by using examples
+IMPLY, to indicate or suggest without being explicitly stated
+INCORPORATE, to include or contain as a constituent part
+INFLUENCE, to have an effect on the character - development - or behavior of someone or something
+INITIATE, to cause a process or action to begin
+INNOVATE, to make changes in something established
+INTERPRET, to explain the meaning of something
+INVESTIGATE, to carry out a systematic or formal inquiry
+ISOLATE, to separate from others
+JUSTIFY, to show or prove to be right or reasonable
+LEGITIMATE, conforming to the law or to rules
+MANIPULATE, to handle or control in a skillful manner
+MAXIMIZE, to make as large or great as possible
+METHOD, a particular form of procedure for accomplishing or approaching something
+MINIMIZE, to reduce something to the smallest possible amount
+MODIFY, to make partial or minor changes to something
+MONITOR, to observe and check the progress or quality of something
+MOTIVATE, to provide with a reason for doing something
+NEGOTIATE, to try to reach an agreement or compromise by discussion
+NOTION, a conception of or belief about something
+OBJECTIVE, a thing aimed at or sought
+OBSERVE, to notice or perceive something and register it as being significant
+OBTAIN, to get or acqure something
+OCCUR, to happen or take place
+OUTCOME, the way a thing turns out
+PARALLEL, side by side and having the same distance continuously between them
+PARAMETER, a numerical or other measurable factor
+PARTICIPATE, to take part in an activity or event
+PERSPECTIVE, a particular attitude toward or way of regarding something
+PHENOMENON, a fact or situation that is observed to exist or happen
+PREDICT, to say or estimate that a specified thing will happen in the future
+PRIMARY, of chief importance
+PRIORITIZE, to designate or treat something as more important than other things
+PROCEDURE, an established or official way of doing something
+PROCESS, a series of actions or steps taken to achieve a particular end
+PROFOUND, very great or intense
+PROJECT, an individual or collaborative enterprise
+PROPORTION, a part - share - or number considered in comparative relation to a whole
+PROSPECT, the possibility or likelihood of some future event occurring
+PUBLISH, to prepare and issue a book - journal - or piece of music for public sale
+PURSUE, to follow or chase with determination
+QUALIFY, to be entitled to a particular benefit or privilege
+QUANTIFY, to express or measure the quantity of
+RECOGNIZE, to identify someone or something from having encountered them before
+REFLECT, to think deeply or carefully about
+RELATE, to make or show a connection between
+RELEVANT, closely connected or appropriate to what is being done or considered
+RESOLVE, to settle or find a solution to a problem
+RESTRICT, to put a limit on
+REVEAL, to make known to others
+SIGNIFICANT, sufficiently great or important to be worthy of attention
+SIMILAR, resembling without being identical
+SPECIFIC, clearly defined or identified
+STRATEGY, a plan of action designed to achieve a long-term or overall aim
+STRUCTURE, the arrangement of and relations between the parts or elements of something complex
+SUBSEQUENT, coming after something in time
+SUBSTANTIAL, of considerable importance - size - or worth
+SUFFICIENT, enough; adequate
+SUMMARIZE, to give a brief statement of the main points
+SUPPORT, to bear all or part of the weight of something
+SYNTHESIZE, to combine a number of things into a coherent whole
+TECHNIQUE, a way of carrying out a particular task
+TENDENCY, an inclination toward a particular characteristic or type of behavior
+THEORY, a supposition or a system of ideas intended to explain something
+TRANSLATE, to express the sense of words or text in another language
+TYPICAL, having the distinctive qualities of a particular type of person or thing
+UNDERLYING, being the cause or basis of something
+VALIDATE, to check or prove the validity or accuracy of something
+VARIABLE, not consistent or having a fixed pattern
+VERSATILE, able to adapt or be adapted to many different functions or activities
+VITAL, absolutely necessary or important
+WITNESS, a person who sees an event take place
+ADVOCATE, to publicly recommend or support
+AMBIGUOUS, open to more than one interpretation
+ANOMALY, something that deviates from what is standard - normal - or expected
+ANTICIPATE, to regard as probable; expect or predict
+APPARENT, clearly visible or understood
+ASCERTAIN, to find something out for certain
+ASSERT, to state a fact or belief confidently and forcefully
+ATTRIBUTE, a quality or feature regarded as a characteristic or inherent part of someone or something
+BIAS, a particular preference or point of view that is personal rather than scientific
+CANDID, truthful and straightforward
+CAPACITY, the maximum amount that something can contain
+COHERENCE, the quality of being logical and consistent
+COMPELLING, evoking interest - attention - or admiration
+COMPLEXITY, the state or quality of being intricate or complicated
+CONCUR, to be of the same opinion; agree
+CONFOUND, to cause surprise or confusion
+CONTEMPORARY, living or occurring at the same time
+CONVENTIONAL, based on or in accordance with what is generally done or believed
+CRUCIAL, decisive or critical -- especially in the success or failure of something
+CULMINATE, to reach a climax or point of highest development
+DEFICIENT, not having enough of a specified quality or ingredient
+DEMONSTRATIVE, tending to show feelings - especially of affection openly
+DISCREPANCY, a lack of compatibility or similarity between two or more facts
+DISPLACE, to take over the place - position - or role of something
+DISSENT, the expression or holding of opinions at variance with those previously - commonly - or officially held
+DISTORT, to pull or twist out of shape
+DIVERSE, showing a great deal of variety
+DYNAMIC, characterized by constant change - activity - or progress
+ELABORATE, involving many carefully arranged parts or details
+ELICIT, to evoke or draw out a response
+EMERGE, to become apparent or prominent
+EMPIRICAL, based on - concerned with - or verifiable by observation or experience rather than theory or pure logic
+ENCOMPASS, to surround and have or hold within
+ENDURE, to suffer something painful or difficult patiently
+ENGAGE, to participate or become involved in
+ENHANCE, to intensify - increase - or further improve the quality of something
+ENTITLE, to give someone a legal right or a just claim to receive or do something
+EPITOME, a person or thing that is a perfect example of a particular quality or type
+EVOKE, to bring or recall to the conscious mind
+EXEMPLIFY, to be a typical example of something
+EXPLICIT, stated clearly and in detail - leaving no room for confusion or doubt
+EXTENSIVE, covering or affecting a large area
+FACILITATE, to make an action or process easy or easier
+FOSTER, to encourage the development of something
+HINDER, to create difficulties for someone or something - resulting in delay or obstruction
+IMPLEMENT, to put a decision - plan - agreement - etc. into effect
+INTEGRATE, to combine one thing with another so that they become a whole
+INTENSIFY, to become or make more intense
+INTERVENE, to come between so as to prevent or alter a result or course of events
+IRRATIONAL, not logical or reasonable
+LAMENT, to express passionate grief about something
+LEGITIMIZE, to make something lawful or acceptable
+LUCRATIVE, producing a great deal of profit
+MAGNITUDE, the great size or extent of something
+MANIFEST, clear or obvious to the eye or mind
+MARGINAL, relating to or situated at the edge or margin of something
+MITIGATE, to make less severe - serious - or painful
+NOTORIOUS, famous or well known - typically for some bad quality or deed
+OBLIGE, to make someone legally or morally bound to an action or course of action
+OBSTACLE, a thing that blocks one's way or prevents or hinders progress
+OCCUPY, to reside or have one's place of business in a building
+OMINOUS, giving the impression that something bad or unpleasant is going to happen
+OMISSION, someone or something that has been left out or excluded
+OPPORTUNE, well-chosen or particularly favorable or appropriate
+PARADIGM, a typical example or pattern of something; a model
+PERCEIVE, to become aware or conscious of something
+PERPETUAL, never ending or changing
+PLAUSIBLE, seeming reasonable or probable
+PONDER, to think about something carefully
+POTENTIAL, having or showing the capacity to develop into something in the future
+PREVALENT, widespread in a particular area or at a particular time
+PROFOUND, very great or intense
+PROLIFIC, producing much fruit or foliage or many offspring
+PROVOKE, to stimulate or give rise to a reaction or emotion in someone
+RATIONAL, based on or in accordance with reason or logic
+REITERATE, to say something again or a number of times - typically for emphasis or clarity
+RESILIENT, able to withstand or recover quickly from difficult conditions
+SCRUTINIZE, to examine or inspect closely and thoroughly
+SPORADIC, occurring at irregular intervals or only in a few places; scattered or isolated
+STAGNANT, showing no activity; dull and sluggish
+SUBDUE, to overcome - quieten - or bring under control a feeling or person
+SUBSEQUENT, coming after something in time
+SUCCINCT, briefly and clearly expressed
+SUPERFICIAL, existing or occurring at or on the surface
+SURPASS, to exceed; be greater than
+SUSTAIN, to strengthen or support physically or mentally
+TACTFUL, having or showing tact
+TERMINATE, to bring to an end
+TRANSIENT, lasting only for a short time
+UBIQUITOUS, present - appearing - or found everywhere
+UNANIMOUS, fully in agreement
+UNDERSCORE, to emphasize
+VAGUE, of uncertain - indefinite - or unclear character or meaning
+VEHEMENT, showing strong feeling; forceful - passionate - or intense
+VIGILANT, keeping careful watch for possible danger or difficulties
+VINDICATE, to clear someone of blame or suspicion
+VOLATILE, liable to change rapidly and unpredictably - especially for the worse
+ZEALOUS, having or showing zeal
+ABRIDGE, to shorten without losing the sense
+ACCLAIM, to praise enthusiastically and publicly
+ACCUMULATE, to gather together or acquire an increasing number or quantity of
+ADEQUATE, satisfactory or acceptable in quality or quantity
+ADHERE, to stick fast to a surface or substance
+ADJACENT, next to or adjoining something else
+ADMINISTER, to manage and be responsible for the running of a business - organization - etc.
+ADVERSARY, one's opponent in a contest - conflict - or dispute
+ADVERSITY, difficulties; misfortune
+ADVOCATE, a person who publicly supports or recommends a particular cause or policy
+AFFLUENT, having a great deal of money; wealthy
+AGILE, able to move quickly and easily
+ALLEVIATE, to make suffering - deficiency - or a problem less severe
+AMENABLE, open and responsive to suggestion; easily persuaded or controlled
+ANTAGONIST, a person who actively opposes or is hostile to someone or something
+ANTHOLOGY, a published collection of poems or other pieces of writing
+APATHY, lack of interest - enthusiasm - or concern
+APPREHENSIVE, anxious or fearful that something bad or unpleasant will happen
+ARBITRARY, based on random choice or personal whim
+ASPIRATION, a hope or ambition of achieving something
+ASSERTIVE, having or showing a confident and forceful personality
+ASTUTE, having or showing an ability to accurately assess situations or people
+ATTENTIVE, paying close attention to something
+ATTRIBUTE, regard something as being caused by someone or something
+AUDACIOUS, showing a willingness to take surprisingly bold risks
+AUTHENTIC, of undisputed origin; genuine
+BANE, a cause of great distress or annoyance
+BENEFACTOR, a person who gives money or other help to a person or cause
+BENEVOLENT, well-meaning and kindly
+BEWILDER, to cause someone to become perplexed and confused
