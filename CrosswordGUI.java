@@ -52,7 +52,7 @@ public class CrosswordGUI implements ActionListener {
 		JFrame frame = new JFrame();
 		frame.add(component);
         frame.setSize(1750, 1000);
-		frame.setTitle("Java Crossword Generator");
+		frame.setTitle("Java Crossword Generated!");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 
