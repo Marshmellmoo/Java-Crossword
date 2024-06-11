@@ -17,7 +17,7 @@ public String checkAnswer(String[][] inputCrossword) {
     		}
     	}
 
-	if (check = true) {
+	if (check == true) {
 		System.out.println("Congratulations! You correctly completed the crossword puzzle.");
         } 
 	else {
