@@ -1,200 +1,224 @@
-ABSTRACTCLASS, defines a class that cannot be instantiated
-ACCESSMODIFIER, determines the visibility of a variable - method - or class
-ANNOTATION, provides metadata for Java code
-ANONYMOUSCLASS, a class without a name
-ARRAYLIST, a resizable array implementation
-AUTOCLOSEABLE, an interface for classes that can be closed
-BOOLEAN, represents true or false values
-BREAK, exits a loop or switch statement
-BYTE, an 8-bit integer data type
-CASE, a label in a switch statement
-CATCH, handles exceptions
-CHAR, a single 16-bit Unicode character
-CLASS, defines a blueprint for objects
-CLASSLOADER, loads Java classes at runtime
-CLONEABLE, indicates that a class allows cloning
-COLLECTION, a group of objects
-COMPARATOR, defines a custom order for objects
-CONCURRENCY, simultaneous execution of threads
-CONCURRENTHASHMAP, a thread-safe map implementation
-CONSTRUCTOR, initializes a new object
-CONTINUE, skips the current iteration of a loop
-CUSTOMEXCEPTION, a user-defined exception
-DAEMONTHREAD, a background service thread
-DEBUGGER, a tool to test and debug code
-DEPRECATED, indicates outdated code
-DOUBLE, a double-precision floating-point number
-ENUM, a special class representing a group of constants
-EXCEPTION, handles runtime errors
-EXTENDS, indicates inheritance
-FINAL, prevents modification
-FINALLY, executes after a try-catch block
-FLOAT, a single-precision floating-point number
-FOR, a loop with a specified number of iterations
-GARBAGECOLLECTOR, reclaims unused memory
-GENERICS, enables types to be parameters
-GETTER, retrieves the value of a variable
-HASHMAP, a collection of key-value pairs
-HEAP, a memory area for dynamic allocation
-IMPLEMENTS, indicates interface implementation
-IMPORT, includes other classes or packages
-INSTANCE, an object of a class
-INSTANCEOF, tests object type
-INTERFACE, defines a contract for classes
-INT, a 32-bit integer data type
-ITERATOR, traverses elements of a collection
-JAVA, a high-level programming language
-JAVADOC, generates documentation from comments
-JAVAVIRTUALMACHINE, runs Java bytecode
-JDK, Java Development Kit
-JRE, Java Runtime Environment
-LAMBDA, a concise way to express anonymous functions
-LINKEDLIST, a list with elements linked by pointers
-LOCALCLASS, a class defined within a method
-LONG, a 64-bit integer data type
-MAIN, the entry point of a Java application
-MAP, a collection of key-value pairs
-METHOD, a function defined within a class
-MULTITHREADING, concurrent execution of threads
-MUTEX, mutual exclusion for thread safety
-NAMESPACE, a context for identifiers
-NATIVE, indicates a method is implemented in native code
-NULL, a literal representing no value
-OBJECT, an instance of a class
-OVERLOADING, defining multiple methods with the same name
-OVERRIDING, redefining a method in a subclass
-PACKAGE, groups related classes and interfaces
-POLYMORPHISM, different implementations of the same interface
-PRIMITIVE, basic data types like int - char - etc.
-PRIVATE, access level within the same class
-PROTECTED, access level within the same package and subclasses
-PUBLIC, access level for all classes
-QUEUE, a collection for holding elements prior to processing
-RANDOMACCESS, indicates random access capability
-RECURSION, a method calling itself
-REFLECTION, inspection of classes at runtime
-RETURN, exits a method and optionally returns a value
-RUNTIME, the period during which a program is running
-SCANNER, reads input from various sources
-SERIALIZATION, converting an object into a byte stream
-SET, a collection that contains no duplicate elements
-SHORT, a 16-bit integer data type
-SINGLETON, a class with only one instance
-STACK, a last-in -> first-out collection
-STATIC, belongs to the class -- not instances
-STRING, a sequence of characters
-STRINGBUFFER, a mutable sequence of characters
-STRINGBUILDER, a faster mutable sequence of characters
-SUPER, refers to the superclass
-SWITCH, a control statement for multiple paths
-SYNCHRONIZED, restricts access to one thread at a time
-THROW, signals an exception
-THROWS, declares exceptions thrown by a method
-TRANSIENT, prevents serialization of a field
-TRY, starts a block of code to handle exceptions
-TYPECASTING, converting one type to another
-VARIABLE, a storage location with a name
-VOLATILE, ensures visibility of changes across threads
-VOID, indicates no return value
-WHILE, a loop with a condition at the beginning
-WRAPPERCLASS, a class that encapsulates a primitive type
-XOR, bitwise exclusive OR operator
-YIELD, pauses the current thread
-ZERODIVISION, an exception for division by zero
-ASYNCHRONOUS, not occurring at the same time
-BINARYSEARCH, searching algorithm in sorted arrays
-BLOCK, a group of statements
-BOOLEANLOGIC, true/false logic operations
-BUFFER, temporary data storage
-CALLBACK, method passed as an argument
-CHARACTERCODE, numeric representation of a character
-CLASSPATH, the path for finding classes
-CLIENTSERVER, architecture with clients and servers
-COMPILER, converts source code to bytecode
-COMPOSITION, building complex objects from simpler ones
-CONSTANT, a variable whose value cannot change
-CONVERSION, changing from one type to another
-COUNTER, a variable used to count occurrences
-CURRENCY, formatting and using currency values
-DATATYPE, type of data stored in a variable
-DEBUG, finding and fixing bugs
-DEQUEUE, removing an element from a queue
-DICTIONARY, a collection of key-value pairs
-DISPATCH, sending a message to an object
-DOCUMENTATION, descriptive text about code
-DOUBLEBUFFERING, technique to minimize flickering
-DRIVER, interface for connecting to databases
-DYNAMICBINDING, linking a procedure call at runtime
-EQUALITY, checking if two values are the same
-EVENT, an action recognized by software
-EXCLUSIVEOR, bitwise operator for XOR
-FACTORYMETHOD, a method for creating objects
-FILEINPUTSTREAM, reading data from a file
-FILEOUTPUTSTREAM, writing data to a file
-FINALIZER, method called before an object is destroyed
-FIRSTCLASS, a class with all primary features
-FUNCTIONALINTERFACE, an interface with one abstract method
-GENERICMETHOD, a method with a type parameter
-GRAPHICS, drawing and rendering shapes
-HASHCODE, returns a hash code value
-IDENTIFIER, name for variables - methods - classes
-IMMUTABLE, an object whose state cannot change
-IMPORTSTATEMENT, includes classes or packages
-INDEXOUTOFBOUNDS, exception for invalid index access
-INLINE, placing code directly in the method
-INPUTSTREAM, reads bytes from a source
-INSTANCEVARIABLE, a variable belonging to an instance
-INTELLIJIDEA, a popular Java IDE
-INTERNET, a global network of computers
-IOEXCEPTION, exception for I/O errors
-JAVAARCHIVE, packaging format for Java classes
-JAVAEE, Java Enterprise Edition
-JAVAFX, a platform for creating rich internet applications
-JAVASE, Java Standard Edition
-JAVASERVERFACES, framework for building web applications
-JAVASERVLET, a Java class for web servers
-JOIN, combining threads or strings
-JSON, a lightweight data interchange format
-JVMARGUMENTS, parameters for the JVM
-KEYBOARD, input device for text
-LABEL, an identifier for a statement
-LEAPYEAR, a year with an extra day
-LIBRARY, a collection of pre-written code
-LOADING, process of loading classes into memory
-LOGGING, recording information about program execution
-MAPPING, associating keys with values
-MAXVALUE, the largest value a type can hold
-MINVALUE, the smallest value a type can hold
-MODULUS, remainder operation
-MULTICAST, sending data to multiple recipients
-NESTEDCLASS, a class defined within another class
-NETWORK, a group of connected computers
-OBJECTORIENTED, programming paradigm based on objects
-OVERFLOW, exceeding the storage capacity
-PACKAGEPRIVATE, access level within the same package
-PARSE, analyzing a string for structure
-PASSWORD, a secret word for authentication
-PATH, the location of a file or directory
-PIPE, a connection between two programs
-PLATFORM, the environment where programs run
-POINTER, a reference to a memory location
-POOL, a collection of reusable objects
-PRIORITY, importance level of a thread
-PROXY, an intermediary for requests
-QUEUE, a collection of elements with FIFO order
-RANDOM, generating unpredictable values
-REFERENCE, an address to a memory location
-REGEX, pattern matching for strings
-RELATIONAL, operations involving relationships between values
-REMOTE, accessing objects on a different machine
-RENDER, drawing graphics
-RESOURCE, an asset used by a program
-REVERSE, reversing a sequence
-SCOPE, the visibility of variables
-SECURITY, protection against unauthorized access
-SESSION, a period of interaction with a system
-SINGLETHREADED, execution of a single thread
-SOURCECODE, human-readable code
-SUBCLASS, a class derived from another class
-SUPERCLASS, a class from which others are derived
-SYNTAX, rules defining structure in programming
+APPLE, A round fruit that can be red or green.
+BALL, You can throw or kick this round object.
+CAT, A small furry pet that purrs.
+DOG, A loyal pet that barks.
+EGG, Chickens lay these.
+FISH, Lives in water and has fins.
+GOAT, This animal has horns and likes to climb.
+HAT, You wear this on your head.
+ICE, Frozen water.
+JUG, A container for holding liquids.
+KITE, Flies high in the sky on a string.
+LEAF, Grows on trees and is green.
+MOON, Shines in the night sky.
+NUT, Squirrels love to eat these.
+OWL, A bird that hoots at night.
+PEN, You use this to write.
+QUILT, A warm bed covering made of fabric pieces.
+RAT, A small rodent with a long tail.
+SUN, Shines brightly in the sky.
+TREE, A tall plant with branches and leaves.
+UMBRELLA, You use this when it rains.
+VAN, A large vehicle for carrying people or things.
+WHALE, A giant animal that lives in the ocean.
+XYLOPHONE, A musical instrument with wooden bars.
+YARN, Used for knitting and comes in balls.
+ZEBRA, A striped animal found in Africa.
+ANT, A tiny insect that lives in colonies.
+BOAT, Floats on water.
+CAR, A vehicle with four wheels.
+DUCK, A bird that quacks and swims.
+EAR, You use this to hear.
+FROG, A green animal that jumps and lives in water.
+GATE, A door in a fence or wall.
+HORSE, An animal you can ride.
+INK, Used in pens for writing.
+JAR, A container made of glass or plastic.
+KING, A male ruler of a country.
+LION, The king of the jungle.
+MILK, A white liquid cows produce.
+NEST, A bird's home.
+OCTOPUS, A sea animal with eight arms.
+PIG, A farm animal that oinks.
+QUEEN, A female ruler of a country.
+ROSE, A type of fragrant flower.
+SHIP, A large boat.
+TRAIN, A long vehicle that runs on tracks.
+VINE, A climbing plant.
+WOLF, A wild animal that howls.
+AXE, A tool used for chopping wood.
+BELL, A metal object that rings.
+CORN, A yellow vegetable that grows on a cob.
+DRUM, A musical instrument you hit.
+ELEPHANT, A large animal with a trunk.
+FAN, A device that blows air.
+GRAPES, Small round fruits that grow in clusters.
+HILL, A small raised area of land.
+ICE CREAM, A sweet frozen treat.
+JEEP, A small, sturdy vehicle.
+KITE, Flies high in the sky on a string.
+LAMP, A device that gives light.
+MOUSE, A small rodent with a long tail.
+NEST, A structure built by birds.
+OWL, A nocturnal bird.
+PEN, A writing instrument.
+QUEEN, A female monarch.
+RABBIT, A small animal with long ears.
+SNAKE, A legless reptile.
+TENT, A portable shelter.
+VINE, A climbing plant.
+WAGON, A vehicle for carrying goods.
+YARN, Used for knitting.
+ZEBRA, A striped animal.
+ANGEL, A heavenly being.
+BEE, An insect that makes honey.
+CAKE, A sweet baked dessert.
+DOLL, A toy that looks like a human.
+EGG, Laid by birds.
+FLAG, A piece of cloth with a symbol.
+GOAT, An animal with horns.
+HAT, A head covering.
+ICE, Frozen water.
+JAM, A sweet spread made from fruit.
+KEY, Used to open locks.
+LEAF, Part of a plant.
+MOON, Earth's natural satellite.
+NUT, A hard-shelled seed.
+OWL, A nocturnal bird.
+PIG, A farm animal.
+QUILT, A bed covering.
+RAT, A small rodent.
+SUN, A star in our solar system.
+TREE, A tall plant.
+UMBRELLA, For rain protection.
+VAN, A vehicle.
+WHALE, A large sea animal.
+XYLOPHONE, A musical instrument.
+YARN, For knitting.
+ZEBRA, A striped animal.
+ANT, A small insect.
+BOAT, Floats on water.
+CAR, A four-wheeled vehicle.
+DUCK, A bird that swims.
+EAR, For hearing.
+FROG, A green jumping animal.
+GATE, A fence door.
+HORSE, An animal to ride.
+INK, Pen liquid.
+JAR, A container.
+KING, A male ruler.
+LION, A big cat.
+MILK, A white drink.
+NEST, A bird's home.
+OCTOPUS, Sea animal with arms.
+PIG, A farm animal.
+QUEEN, A female ruler.
+ROSE, A fragrant flower.
+SHIP, A large boat.
+TRAIN, Runs on tracks.
+VINE, A climbing plant.
+WOLF, A wild animal.
+AXE, A chopping tool.
+BELL, A ringing object.
+CORN, A yellow vegetable.
+DRUM, A musical instrument.
+BIRD, Flies in the sky.
+CAKE, A sweet baked dessert.
+DEER, A wild animal with antlers.
+FIRE, Hot and bright.
+GOOSE, A bird that honks.
+HORSE, An animal you can ride.
+IGLOO, A house made of ice.
+JUMP, To leap into the air.
+KANGAROO, An animal that jumps and has a pouch.
+LAMB, A baby sheep.
+MONKEY, A playful animal that swings in trees.
+NEEDLE, Used for sewing.
+ORANGE, A citrus fruit and color.
+PANDA, A black and white bear.
+QUACK, The sound a duck makes.
+RING, A piece of jewelry for your finger.
+SNAIL, A slow-moving creature with a shell.
+TIGER, A big striped cat.
+UNICORN, A mythical horse with a horn.
+VIOLIN, A musical instrument with strings.
+WITCH, A magical person with a broom.
+X-RAY, A picture of your bones.
+YOGURT, A creamy dairy snack.
+ZOO, A place where animals are kept.
+ACORN, The nut of an oak tree.
+BROOM, Used for sweeping.
+CANDY, A sweet treat.
+DESK, A place to sit and write.
+EAGLE, A large bird of prey.
+FLOWER, A colorful plant.
+GLUE, Sticky stuff for crafting.
+HOUSE, A place where people live.
+ICEBERG, A large piece of ice in the sea.
+JACKET, A piece of clothing for warmth.
+KETTLE, Used to boil water.
+LADDER, Used to climb up and down.
+MAP, Shows you where to go.
+NOSE, Used for smelling.
+ORBIT, The path of a planet.
+PENCIL, A tool for writing or drawing.
+QUIET, Very little noise.
+RIVER, A large flowing body of water.
+STARS, Bright objects in the night sky.
+TEAPOT, Used to brew tea.
+UNICYCLE, A bike with one wheel.
+VIOLET, A purple flower.
+WIND, Moving air.
+XYLOPHONE, A musical instrument.
+YAWN, What you do when you're tired.
+ZEBRA, A striped animal.
+ALLIGATOR, A large reptile.
+BANANA, A yellow fruit.
+CAMEL, An animal with humps.
+DOLPHIN, A smart sea animal.
+EARTH, The planet we live on.
+FORK, Used to eat food.
+GIRAFFE, A tall animal with a long neck.
+HAMMER, Used to hit nails.
+INSECT, A small bug.
+JUICE, A drink made from fruit.
+KEYBOARD, Used to type on a computer.
+LADYBUG, A small red beetle.
+MELON, A large juicy fruit.
+NEIGHBOR, Someone who lives nearby.
+OSTRICH, A large bird that can't fly.
+PARROT, A colorful talking bird.
+QUEEN, A female ruler.
+ROCKET, Flies into space.
+SAND, Found on beaches.
+TELESCOPE, Used to look at stars.
+UMBRELLA, For rain protection.
+VOLCANO, A mountain that erupts.
+WALRUS, An arctic animal with tusks.
+XYLOPHONE, A musical instrument.
+YO-YO, A toy on a string.
+ZIPPER, Used to close clothes.
+ANIMAL, A living creature.
+BEACH, A sandy shore.
+CLOUD, Found in the sky.
+DRAGON, A mythical creature.
+EGGPLANT, A purple vegetable.
+FOREST, A large area with trees.
+GHOST, A spooky spirit.
+HONEY, Made by bees.
+ISLAND, A piece of land surrounded by water.
+JUNGLE, A dense forest.
+KITTEN, A baby cat.
+LION, The king of the jungle.
+MOUNTAIN, A tall landform.
+NECKLACE, Jewelry for the neck.
+OCEAN, A large body of salt water.
+PEAR, A sweet green fruit.
+QUEEN, A royal lady.
+RAIN, Water that falls from the sky.
+SHELL, Found on the beach.
+TURTLE, A slow-moving reptile.
+UNIFORM, Special clothes for a job or school.
+VOLLEYBALL, A sport played with a ball and net.
+XYLOPHONE, A musical instrument.
+YOGURT, A creamy dairy snack.
