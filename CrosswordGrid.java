@@ -5,7 +5,6 @@ import javax.swing.JFrame;
 import javax.swing.JComponent;
 
 public class CrosswordGrid extends JFrame {
-
     public CrosswordGrid() {
         setTitle("Crossword Puzzle");
         setSize(500, 500);
@@ -20,11 +19,9 @@ public class CrosswordGrid extends JFrame {
 }
 
 class CrosswordComponent extends JComponent {
-
     private final int cellSize = 30;
     private final char[][] grid = new char[50][50];
 
-  
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D)g;
